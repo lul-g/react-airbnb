@@ -5,13 +5,16 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-body  {
+body {
   background: #e5e5e5;
-  display: flex;
   align-items: center;
   justify-content: center;
   display: flex;
-  /* height: 200vh; */
+}
+#root {
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 .flex {
   display: flex;
@@ -129,7 +132,7 @@ body  {
 } 
 .main .card .rating li {
   font-size: 12px;
-  list-style: none;
+  list-style: none
 }
 .main .card .rating li i {
   color: #FE395C;
