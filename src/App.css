@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body  {
+  background: #e5e5e5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  /* height: 200vh; */
+}
+.flex {
+  display: flex;
+  gap: 2rem;
+}
+.grid {
+  display: grid;
+  gap: 1rem 0;
+}
+.App {
+  background-color: white;
+  border-radius: 10px;
+  width: 75%;
+}
+.header {
+  border-bottom: solid 3px #e5e5e5;
+  padding: 1rem 2rem;
+}
+.main {
+  padding: 1rem 3rem;
+}
+.main .top {
+  padding-bottom: 2rem;
+  position: relative;
+  left: 7%;
+  grid-template-areas: 
+  'one two three four five'
+  'one six seven eight nine';
+}
+.main .top img {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.main .top img:nth-child(1) {
+  grid-area: four;
+  top: 1rem;
+  left:-3rem;
+}
+.main .top img:nth-child(2) {
+  grid-area: eight;
+  left:-3rem;
+  bottom: .5rem;
+}
+.main .top img:nth-child(3) {
+  grid-area: nine;
+  left: -4rem;
+  top: 1rem;
+}
+.main .top img:nth-child(4) {
+  grid-area: five;
+  left: -4rem;
+  top: 1.5rem;
+}
+.main .top img:nth-child(5) {
+  grid-area: six;
+  bottom: 1rem;
+  left: -1rem;
+}
+.main .top img:nth-child(6) {
+  grid-area: three;
+  top: 3rem;
+  left: -2rem;
+}
+.main .top img:nth-child(7) {
+  grid-area: one;
+  top: 4rem;
+}
+.main .top img:nth-child(8) {
+  grid-area: seven;
+  top: 2.5rem;
+  left: -2rem;
+}
+.main .top img:nth-child(9) {
+  grid-area: two;
+  top: 1.5rem;
+  left: -1rem;
+}
+
+.main .mid {
+  padding: 3rem 0;
+}
+.main .mid h1 {
+  font-size: 36px;
+}
+.main .mid p {
+  font-weight: 100;
+  width: 65%;
+}
+
+.main .btm {
+  justify-content:start;
+  gap: 1.5rem;
+  position: relative;
+  left: .3%;
+}
+.main .card {
+  position: relative;
+
+}
+.main .card .tag {
+  position: absolute;
+  top: .5rem;
+  left: 1rem;
+  background-color: white;
+  border-radius: 5px;
+  font-weight: normal;
+  font-size: 12.24px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
+.main .card .rating {
+  gap: 5px;
+  position: relative;
+} 
+.main .card .rating li {
+  font-size: 12px;
+  list-style: none;
+}
+.main .card .rating li i {
+  color: #FE395C;
+}
+.main .card .rating .num {
+  color: #918E9B;
+}
+.main .card .location {
+  list-style: disc !important;
+  font-size: 10px !important;
+  padding-right: 0rem;
+  margin-left: .4rem;
+  color: #918E9B;
+}
+.main .card .location span{
+  position: relative;
+  left: -.2rem;
+  font-size: 12px !important;
+}
+.main .card .description {
+  font-weight: 200;
+  font-size: 14px;
+}
+.main .card .price {
+  font-weight: 800;
+  font-size: 14px;
+}
+.light {
+  font-weight: 200;
+}
