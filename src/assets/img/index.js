@@ -9,9 +9,7 @@ import h from "../img/image 29.png";
 import i from "../img/image 30.png";
 
 
-
-const images = {
+export default {
     a,b, c, d,
     e, f, g, h, i
 }
-export default images;
